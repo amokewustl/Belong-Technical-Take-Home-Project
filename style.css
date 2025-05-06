@@ -1,0 +1,29 @@
+/* Add a simple style for the app */
+div.stButton > button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+div.stButton > button:hover {
+    background-color: #45a049;
+}
+
+/* Back button */
+button[data-testid="baseButton-secondary"] {
+    background-color: #f1f1f1;
+    color: black;
+}
+
+/* Remove button */
+div.stButton > button[key*="remove"] {
+    background-color: #f44336;
+}
+
+div.stButton > button[key*="remove"]:hover {
+    background-color: #d32f2f;
+}
